@@ -1,0 +1,16 @@
+{
+  "name": "random-quote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "purgecss --css sass/style.css --content index.html -o sass/reducido.css"
+  },
+  "keywords": [],
+  "author": "Jose Mitchell",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0"
+  }
+}
